@@ -1,0 +1,458 @@
+html{
+    width: 100%;
+    overflow-x: hidden;
+    }
+
+
+/* Nav */
+.navbar {
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  .xd {
+    color: #fff;
+  }
+  .navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: green;
+  }
+  
+  .nav-link {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+   
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .nav-item{
+      color: white;
+  }
+  
+  /* end nav */
+
+  /* jumbotron */
+
+.jumbotron {
+    background-image: url(bss.jpg);
+    background-size: cover;
+    height: 590px;
+    text-align: center;
+    position: relative;
+    margin-top: -69px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
+  .jumbotron .container {
+    z-index: 1;
+    position: relative;
+  }
+  
+  .jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-size: 80px;
+    margin-bottom: 20px;
+    line-height: 75px;
+  }
+
+  .aboutciamis{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    margin-top: 0px;
+    color: #b90fdfdc;
+  }
+
+  .what{
+      font-size: 80px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+
+  }
+
+  .textinfo{
+      color: purple;
+  }
+
+  .contain{
+      margin-left: 200px;
+  }
+
+  .text{
+      color: #222;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 100px;
+      margin-top: 50px;
+      text-align: center;
+  }
+  .textp{
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .textright{
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 50px;
+}
+.textpright{
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 40px;
+  text-align: center;
+  margin-right: 50px;
+}
+.textright2{
+  margin-top: 100px;
+}
+.textright3{
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  margin-top: 190px;
+  text-align: center;
+}
+.textpright3{
+color: #222;
+font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 20px;
+margin-top: 40px;
+text-align: center;
+}
+.text h3{
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  margin-top: 50px;
+  text-align: center;
+}
+  .contain{
+      margin-left: 30px;
+  }
+  .img{
+    margin-top: 100px;
+    border-radius: 15px;
+    margin-left: 100px;
+  }
+
+  .culture{
+      margin-top: 40px;
+      font-family: 'Lobster', cursive;
+      font-size: 100px;
+      color: #b90fdfdc;
+  }
+  .img2{
+    margin-top: 90px;
+    border-radius: 15px;
+    margin-left: 100px;
+  }
+  .img3{
+    margin-top: 160px;
+    border-radius: 15px;
+    margin-left: 20px;
+  }
+  .img4{
+    margin-top: 90px;
+    border-radius: 15px;
+    margin-left: 100px;
+  }
+  /* TEAM SECTION */
+/* team section */
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Raleway:100,600";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300";
+
+h6 {
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: rgba(254, 82, 76, 1);
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: rgba(255, 255, 255, 1);
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.gray {
+  color: #a5a5a5;
+}
+
+.team {
+  margin: 40px;
+}
+
+.team-member {
+  margin: 15px 0;
+  padding: 0;
+}
+
+.team-member figure {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member figure img {
+  min-width: 100%;
+}
+
+.team-member figcaption p {
+  font-size: 16px;
+}
+
+.team-member figcaption ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-member figcaption ul {
+  visibility: visible;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.team-member figcaption ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.team-member h4 {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.team-member figcaption {
+  padding: 50px;
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  z-index: 996;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption {
+  visibility: visible;
+  color: #fff;
+  background: purple;
+  /* Primary color, can be changed via colors.css */
+
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption ul li a:hover {
+  color: rgba(49, 49, 49, 0.97);
+}
+
+.team-member figure img {
+  -webkit-transform: scale(1) rotate(0) translateY(0);
+  -moz-transform: scale(1) rotate(0) translateY(0);
+  -o-transform: scale(1) rotate(0) translateY(0);
+  -ms-transform: scale(1) rotate(0) translateY(0);
+  transform: scale(1) rotate(0) translateY(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-member figure:hover img {
+  -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+  transform: scale(1.1) rotate(1deg) translateY(12px);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+/* END TEAM */
+
+
+@media only screen and (max-width: 600px) {
+  html,body{
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    overflow-x: hidden; 
+    text-align: center;
+  }
+  .contain{
+    margin-right: 20px;
+    margin-bottom: 40px;
+    display: inline-block;
+    text-align: center;
+  }
+  .navbar{
+    visibility: hidden;
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #222 !important;
+    text-align: center;
+    visibility: hidden;
+  }
+  .navbar-brand {
+    color: #222 !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+  }
+  .jumbotron {
+    
+    height: 700px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 60px;
+    margin-bottom: 90px;
+    font-weight: 400;
+    margin-top: 150px;
+  }
+  .aboutciamis{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    margin-top: 0px;
+    color: #b90fdfdc;
+  }
+  .text{
+    /* margin-top: px;
+    margin-left: 120px; */
+    
+  }
+  .text h3{
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 50px;
+    text-align: center;
+}
+.textp{
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 40px;
+  text-align: center;
+  margin: auto;
+}
+.textpright{
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 40px;
+  text-align: center;
+  margin: auto;
+}
+.img{
+  /* margin-top: -500px; */
+  border-radius: 15px;
+  /* margin-left: 60px; */
+  /* max-width: 400px; */
+  margin-left: auto;
+  visibility: hidden;
+  width: 0%;
+  height: 0%;
+  margin-right: auto;
+}
+.img2{
+  /* margin-top: -500px; */
+  border-radius: 15px;
+  /* margin-left: 60px; */
+  max-width: 400px;
+  position: absolute;
+  visibility: hidden;
+  
+  /* margin: auto; */
+  /* visibility: hidden; */
+}
+.textright2{
+  margin: auto;
+}
+.img3{
+  /* margin-top: -500px; */
+  border-radius: 15px;
+  visibility: hidden;
+  /* margin-left: 60px; */
+  max-width: 0px;
+  margin-left: 500px;
+  margin-right: auto;
+  /* visibility: hidden; */
+}
+.textright3{
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.textpright3{
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+}
